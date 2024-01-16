@@ -1,0 +1,8 @@
+*{/* Configurações globais das CSS*/
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(45deg, #77489C, #CC2087, #D34382, #EE4C31, #F17340);
+    background-attachment: fixed;
+}
