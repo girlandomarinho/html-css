@@ -82,6 +82,7 @@ a {
 }
 
 main  img{
+    display: block;
     width: 100%;
     margin: auto;
 }
