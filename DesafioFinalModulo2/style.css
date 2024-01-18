@@ -13,10 +13,11 @@
     src: url(fontes/norwester.otf);
 }
 
-main > a{
-    text-decoration: underline;
-    color:#1A5C38;
+main a{
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    color:#1A5C38;
+    
 }
 
 main > h1{
@@ -49,7 +50,13 @@ header p{
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.235);
 }
 
-header>h1,a{
+header>h1{
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 6px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.235);
+}
+
+.menu > a{
     font-family: 'Oswald', sans-serif;
     padding-bottom: 6px;
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.235);
@@ -88,7 +95,8 @@ main  img{
 }
 
 .bugdroid{
-    margin-left: 100px;
+    display: block;
+    margin-left: 200px;
     width: 280px;
 }
 
