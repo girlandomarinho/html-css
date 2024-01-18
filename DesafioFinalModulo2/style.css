@@ -83,7 +83,7 @@ body {
     color: white;
     text-align: center;
     background-image: linear-gradient(to top, #1A5C38,#3AD07D);
-    height: 150px;
+    height: auto;
     width: 100%;
     margin: 0;
     padding: 25px;
