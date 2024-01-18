@@ -88,8 +88,6 @@ body {
     margin: 0;
     padding: 25px;
     background-color: aliceblue;
-    position: relative; /* Adicione esta linha para posicionamento relativo */
-    z-index: 1; /* Adicione esta linha para garantir que o header fique acima do main */
 }
 
 main {
@@ -102,9 +100,6 @@ main {
     text-align:justify;
     margin: auto;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    margin-top: -50px; /* Adicione uma margem negativa para compensar o posicionamento do header */
-    position: relative; /* Adicione esta linha para posicionamento relativo */
-    z-index: 0; /* Adicione esta linha para garantir que o main fique abaixo do header */
 }
 
 a {
@@ -171,16 +166,4 @@ li a{
     color: black;
     text-decoration: none;
     font-weight:300;
-}
-
-@media (max-width: 768px) {
-    .menu {
-        padding-top: 30px; /* Ajuste conforme necessário para dispositivos menores */
-    }
-
-    .main {
-        margin-bottom: 10px; /* Ajuste conforme necessário para dispositivos menores */
-        padding-bottom: 10px; /* Ajuste conforme necessário para dispositivos menores */
-        margin-top: -30px; /* Ajuste conforme necessário para dispositivos menores */
-    }
 }
