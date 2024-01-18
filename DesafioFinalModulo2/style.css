@@ -92,12 +92,15 @@ main  img{
     display: block;
     width: 100%;
     margin: auto;
+    
 }
 
 .bugdroid{
+    max-width: 300px;
+    height: auto;
     display: block;
-    margin-left: 200px;
-    width: 280px;
+    margin: 0 auto;
+    max-height: 300px;
 }
 
 main  p, article{
