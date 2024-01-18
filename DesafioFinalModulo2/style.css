@@ -99,6 +99,8 @@ main {
     background-color: white;
     text-align:justify;
     margin: auto;
+    margin-bottom: 20px; /* Adicione margem na parte inferior do main */
+    padding-bottom: 20px; /* Adicione espaçamento na parte inferior do main */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
