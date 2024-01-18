@@ -30,7 +30,7 @@ main > h1{
 
 main > h2{
     color: #1A5C38;
-    background-image: linear-gradient(to right, #3AD07D, white);
+    background-image: linear-gradient(to right, #3ad07eb5, white);
     padding: 0px 0px 6px 10px;
     text-align: left;
     font-family: idroid;
